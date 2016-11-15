@@ -1,5 +1,5 @@
 FROM ruby:2.2.5
-MAINTAINER jcreynolds jcreynoldsii@gmail.com
+MAINTAINER jcreynolds
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
