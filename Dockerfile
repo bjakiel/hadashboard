@@ -18,7 +18,7 @@ RUN apt-get update \
 
 COPY . .
 
-VOLUME /usr/src/app/lib /usr/src/app/dashboards /usr/src/app/hapush
+VOLUME /usr/src/app/lib /usr/src/app/dashboards /usr/src/app/hapush /usr/src/app/widgets
 
 EXPOSE 3030
 
