@@ -28,4 +28,4 @@ RUN gem install dashing \
  && pip3 install daemonize sseclient configobj \
  && pip3 install --upgrade requests
 
-CMD /usr/src/app/hapush/hapush.py -d /hapush/hapush.cfg && dashing start
+CMD /usr/src/app/hapush/hapush.py -d /usr/src/app/hapush/hapush.cfg && dashing start
